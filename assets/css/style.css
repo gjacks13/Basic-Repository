@@ -99,12 +99,13 @@ body {
 }
 
 .copyright {
-    text-align: center;
+    width: 300px;
+    margin: 0 auto;
 }
 
 #profile-pic {
     float: left;
-    margin-right: 25px;
+    margin-right: 28px;
     margin-bottom: 10px;
     height: 200px;
     width: 200px;
@@ -112,6 +113,11 @@ body {
 
 .section-text{
     display:inline;
+}
+
+.section-text:after {
+    content:"\a\a\a";
+    white-space: pre;
 }
 
 .footer {
@@ -164,7 +170,7 @@ body {
  }
 
 .textarea {
-    resize: none;    
+    resize: none;
 }
 
  #submit {
